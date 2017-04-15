@@ -1,0 +1,298 @@
+function color(e){
+    e.style.backgroundColor="rgb(66, 99, 228)";
+    e.style.borderColor="rgb(66, 99, 228)";
+}
+var editor = CKEDITOR.replace( 'A1Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A1A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+
+var editor = CKEDITOR.replace( 'A2Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A2A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A3Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A4Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A5Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A6Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A7Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A8Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A9Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A0Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B1Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B2Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B3Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B4Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B5Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'C1Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'C2Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+
+var editor = CKEDITOR.replace( 'C3Q', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+
+var editor = CKEDITOR.replace( 'A3A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A4A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A5A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A6A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A7A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A8A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A9A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'A0A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B1A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B2A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B3A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B4A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'B5A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'C1A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+var editor = CKEDITOR.replace( 'C2A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+
+var editor = CKEDITOR.replace( 'C3A', {
+    filebrowserBrowseUrl : 'ckfinder/ckfinder.html',
+    filebrowserImageBrowseUrl : 'ckfinder/ckfinder.html?type=Images',
+    filebrowserFlashBrowseUrl : 'ckfinder/ckfinder.html?type=Flash',
+    filebrowserUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+    filebrowserImageUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+    filebrowserFlashUploadUrl : 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+});
+
+CKFinder.setupCKEditor( editor, '../' );

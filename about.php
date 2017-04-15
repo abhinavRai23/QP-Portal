@@ -1,0 +1,13 @@
+<?php
+	require ("include/headerindex.php");
+?>
+<div class="panel-heading" align="center">
+                Put headding here.
+</div>
+<div class="panel-body" id="panel-body">
+
+</div>
+<?php
+	require ("include/footerindex.php");
+?>
+

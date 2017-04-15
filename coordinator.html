@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/dataTables.bootstrap.css">
+    <style>
+    body {
+      background: url("images/top_bg.png") no-repeat scroll left top #0667A5;
+      color:#000;
+      font: 11px/17px Verdana,Geneva,sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .panel-default {
+        border-color: #8E0000;
+    }
+    .form-control{
+      margin-bottom: 2%;
+    }
+    .panel-body{
+      font-size: 11px;
+    }
+    .panel-heading{
+      font-size: large;
+      font-weight: bolder;
+      border-bottom: 1px solid rgb(34, 34, 34);
+      border-color: #8E0000;
+      color:#000;
+      background-color: #FFFFFF !important;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #8E0000;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: #FFFFFF;
+    }
+    .navbar-inverse .navbar-nav>li>a:hover {
+      color: #FFFFFF;
+      background-color: #860000;
+    }
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+      color: #fff;
+      background-color: #860000;
+    }
+    .navbar-inverse .navbar-brand {
+      color: #FFFFFF;
+    }
+    .navbar-inverse {
+      background-color: #980000;
+      border-color: #860000;
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+      color: #fff;
+      background-color: #860000;
+    }
+    .diff {
+  font-size: 12px;
+  font-weight: bold;
+  color: #494949;
+}
+.data{
+  color: #0667A5;
+}
+.faculty_name {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.form-control{
+  margin-bottom: 2%;
+}
+
+.panel-body {
+  min-height: 400px;
+}
+    </style>
+    
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+
+            <div class="container-fluid">
+                  <div class="row logo">
+                        <div class="col-md-1 col-xs-4 pull-right" style="padding:0px"><img src="images/sir-apj.jpg" height="100px" class="img-responsive logo-1 apj" style="border-radius:50%;position: relative;right: 5px; border:1px solid #999"></div> 
+                        <div class="col-md-1 col-xs-4"><img class="img-responsive logo-1" src="images/logo.png"></div>
+                        <div class="col-md-10 col-xs-12 u-name"><img class="img-responsive logo-2" src="images/logo-1.jpg" ></div>
+                        
+
+                  </div>
+              </div>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"> 
+                    Question Bank  
+                    </a>
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="coordinator.html">Coordinator List</a></li>
+                    <li><a href="guideline.html">Guidelines</a></li>
+                    <li><a href="#">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php">Login</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>  
+<style>
+.checkbox-inline, .radio-inline {
+    padding-left: 10%;
+}
+textarea{
+    margin:2%;
+}
+.s_no{
+    padding-top: 15px !important;
+}
+.btn{
+    padding:3px 12px;
+}
+th{
+    vertical-align: middle !important;
+}
+thead{
+    background-color: #f2f2f2; 
+}
+</style>
+<div class="panel-heading" align="center">
+              List Of Coordinators Approved By The University<br><br>
+
+</div>
+
+
+
+<div class="panel-body">
+	<div class="table-responsive">
+    	<table class="table table-striped">
+        	<thead>
+                <tr class="grid_head">
+                    <th width="5%">S.No.</th>
+                    <th>Branches to Coordinate for questioner</th>
+                    <th>Name of Coordinator</th>
+                    <th>Designation</th>
+                    <th>Institute</th>
+                    <th>Email-id</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Computer Science &amp; Information Technology, MCA</td>
+                <td>Dr. R. Sundaresan</td>
+                <td>Director</td>
+                <td>Galgotia College Gr. Noida</td>
+                <td> r.sundaresan@galgotiacollege.edu<br>director@galgotiacollege.edu</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Civil/Environment Engineering</td>
+                <td>Dr. J. Girish</td>
+                <td>Director</td>
+                <td>KIET Ghaziabad</td>
+                <td>j.girish@kiet.edu</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Electrical Engineering and Electrical and Electronics Engineering</td>
+                <td>Dr. B.K.Chauhan/Dr.Surendra Kumar</td>
+                <td>Director</td>
+                <td>ABES Ghaziabad</td>
+                <td>director@abesit.in</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Electronics/Electronics &amp; Instruments Engineering</td>
+                <td>Dr. R.K. Agarwal</td>
+                <td>Director</td>
+                <td>AKGEC Ghaziabad</td>
+                <td>directorakg@akgec.org</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Mechanical Engineering and related branches</td>
+                <td>Dr. K Kamal<br>Dr. Rajesha</td>
+                <td>Principal</td>
+                <td>JSSATE Noida</td>
+                <td>principal@jssaten.ac.in</td>
+            </tr>
+	     <tr>
+                <td>6.</td>
+                <td>Fashion Technology</td>
+                <td>Dr. Mridula Sharma</td>
+                <td>Director</td>
+                <td>FMG Institute Gr. Noida</td>
+                <td>director@fmginstitute.edu.in</td>
+            </tr>
+	    <tr>
+                <td>7.</td>
+                <td>MBA</td>
+                <td>Dr. R.K. Singhal</td>
+                <td>Professor</td>
+                <td>ABES Ghaziabad</td>
+                <td>assodean.fm@uptu.ac.in</td>
+            </tr>
+	    <tr>
+                <td>8.</td>
+                <td>Chemical Engineering and Food Technology</td>
+                <td>Prof. R.P. Singh</td>
+                <td>Ex-director</td>
+                <td>HBTI Kanpur</td>
+                <td>rpshbti@rediffmail.com</td>
+            </tr>
+	    <tr>
+                <td>9.</td>
+                <td>Pharmacy</td>
+                <td>Dr. Amresh Gupta</td>
+                <td>Director</td>
+                <td>Goel Institute of Pharmacy, Lko</td>
+                <td>assodean.fp@uptu.ac.in</td>
+            </tr>
+	    <tr>
+                <td>10.</td>
+                <td>Biotechnology Engineering</td>
+                <td>Dr. A.S. Vidyarthi</td>
+                <td>Director</td>
+                <td>IET Lko</td>
+                <td>a.s.vidyarthi@gmail.com<br>director@ietlucknow.edu</td>
+            </tr>
+	    <tr>
+                <td>11.</td>
+                <td>Architecture</td>
+                <td>Prof. Vandana Sehgal</td>
+                <td>Associate Professor</td>
+                <td>Faculty of Arch. Dr.APJAKTU</td>
+                <td>assodean.fappd@uptu.ac.in</td>
+            </tr>
+	     <tr>
+                <td>12.</td>
+                <td>Textile Technology</td>
+                <td>Prof. Alok Shakyawar</td>
+                <td>Director</td>
+                <td>UPTTI Kanpur</td>
+                <td>dbshakya_67@yahoo.co.in<br>dbshakya_67@gmail.com</td>
+            </tr>
+	     <tr>
+                <td>13.</td>
+                <td>Agriculture Engineering</td>
+                <td>Dr. Rajmani Maurya</td>
+                <td>Associate Professor</td>
+                <td>ND University Faizabad</td>
+                <td>Dr.rajmanimaurya@gmail.com</td>
+            </tr>
+	     <tr>
+                <td>14.</td>
+                <td>Carpet Technology</td>
+                <td>Prof. K K Goswami</td>
+                <td>Director</td>
+                <td>IICT Bhadohi</td>
+                <td>dr_kk_goswami@rediffmail.com</td>
+        </tr>
+	     <tr>
+                <td>15.</td>
+                <td>Hotel Management</td>
+                <td>Prof. Sanjay Singh</td>
+				<td>HOD Hotel Management</td>
+                <td>BBDNITM Lko</td>
+                <td>bbdbhm@gmail.com</td>
+         </tr>
+	    <tr>
+                <td>16.</td>
+                <td>Applied Sciences</td>
+                <td>Dr. Alok Mishra</td>
+                <td>Director</td>
+                <td>AITM, Lko</td>
+                <td>dralokmishra12@gmail.com</td>
+        </tr>
+            </tbody>
+        </table>
+</div>
+
+</div>      
+            </div>
+        </div>
+      </div>
+  </div>      
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script type="text/javascript" src="../js/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="../js/dataTables.bootstrap.js"></script>
+<script type="text/javascript" src="../js/approvefaculty.js"></script>
+<script type="text/javascript" src="../js/deletefaculty.js"></script>
+  </body>
+</html>
